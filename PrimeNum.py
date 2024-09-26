@@ -14,7 +14,7 @@ def is_prime(number):
 class PrimeNumberTestCase(unittest.TestCase):
 
     def test_prime_numbers(self):
-        prime_numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
+        prime_numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 28, 31]
 
 
         print("Prime numbers:", prime_numbers)
@@ -24,7 +24,7 @@ class PrimeNumberTestCase(unittest.TestCase):
 
 
     def test_non_prime_numbers(self):
-        non_prime_numbers = [4, 6, 8, 10, 12, 14, 16, 18, 20]
+        non_prime_numbers = [4, 6, 5, 10, 12, 14, 16, 58, 20]
 
         print("Non-prime numbers:", non_prime_numbers)
 
@@ -35,3 +35,6 @@ class PrimeNumberTestCase(unittest.TestCase):
 if __name__ == '__main__':
 
     unittest.main()
+
+
+print('Prime Number Tester')
